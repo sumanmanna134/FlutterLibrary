@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutteradvanced/IsolateExample/isolateDemo.dart';
+import 'package:flutteradvanced/IsolateExample/isolateDemoUsingLowLevelApi.dart';
+import 'package:get/get.dart';
 
 void main() {
   runApp(MyApp());
@@ -24,7 +26,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
 
-      home: PerformancePage(),
+      home: UsingHighLevel()
+//      PerformancePage(),
     );
   }
 }
