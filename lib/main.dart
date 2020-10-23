@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutteradvanced/Bloc_withApi/views/news_page.dart';
 import 'package:flutteradvanced/IsolateExample/isolateDemo.dart';
 import 'package:flutteradvanced/IsolateExample/isolateDemoUsingLowLevelApi.dart';
 import 'package:get/get.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
 
-      home: UsingHighLevel()
+      home: NewsPage()
 //      PerformancePage(),
     );
   }
